@@ -1,0 +1,197 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: chartreuse;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0 ;
+    background-color: rgb(217, 255, 0);
+ }
+ 
+ 
+ .logo_image{
+    width:40px;
+    margin-left: 10px;
+ 
+ }
+ 
+ 
+ section{
+    display: inline;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 400px;
+ }
+ 
+ 
+ .maps_if{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+ }
+ 
+ 
+ .navigation ul{
+    display: inline;
+    margin-top: 30px;
+    margin-right: 30px;
+    
+    }
+ 
+ 
+ iframe{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 45px;
+ 
+ }
+ 
+ 
+ .contact{
+    display: block;
+    margin-bottom: 15px;
+ }
+ 
+ 
+ li{
+    display: inline;
+ }
+ 
+ 
+ .logo_1{   
+    width: 500px;
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top:50px;
+ } 
+ 
+ 
+ 
+ section{
+    width: 300px;
+    height:185px; 
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: black   
+ }
+ 
+ 
+   strong{
+    width: 30px;
+    color: blue;
+    width: 50px;
+    height: 10px;
+    font-weight: bold;
+   }
+ 
+ 
+   .img1{
+    width: 120px;
+    float: left;
+    margin: 8px;
+   }
+ 
+ 
+    .igavi{
+       
+       display:inline;   
+    }
+ 
+ 
+   .p1{
+  
+    width:1700px;
+    height:200px;
+    margin: 15px;
+    font-size: 14px;
+   }
+    div{ 
+    display: flex;
+    justify-content: space-around;
+    gap:15px;
+    margin-top:15px;
+    } 
+ 
+ 
+    p{
+       text-align: justify;
+       /* margin-top:20px; */
+    }
+    
+    /* .box1{
+       width: 200px;
+       height:100px;
+       background-color: yellow;       
+       border: 2px solid black ;     
+       margin: 0 auto;
+       
+    }
+    .box2{
+       width: 200px;
+       height:100px;
+       background-color: rgb(255, 0, 179);       
+       border: 2px solid black ;     
+       margin: 0 auto;
+       
+    }
+    .box3-positioned{
+       width: 200px;
+       height:100px;
+       background-color: rgb(0, 255, 64);       
+       border: 2px solid black ;     
+       margin: 0 auto;      
+    } */
+    .positioned{
+       position: absolute;
+       background-color: aqua;
+       top: 45px;
+       left: 47px;
+      
+ 
+    }
+    /* .container-box{
+       position: relative;
+       background-color: pink;
+     
+    } */
+    .chat_icon{
+       width: 90px;
+       height: 60px;
+       position: fixed;
+       bottom: 60px;
+       right: 60px;
+       z-index: -1; 
+    }
+    .container_box1{
+       padding: 25px;
+       width: 1750px;
+       height: 500px;
+       background-color:pink;
+    }
+    .fizika7{
+       width: 700px;
+    }
+    .container_box2{  
+       display: flex;
+       justify-content: space-between;
+       background-color:pink;
+    }
+    .box{
+       display: inline;
+       width: 200px;
+       height: 200px;
+       background-color: blueviolet;
+       border: 3px solid black;
+    }
+    .box1{
+       display: inline;
+       width: 200px;
+       height: 200px;
+       background-color: blueviolet;
+       border: 3px solid black;
+    }
