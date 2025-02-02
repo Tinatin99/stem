@@ -7,14 +7,12 @@ header{
     width: 100%;
     top: 0;
     left:0 ;
-    background-color: rgb(217, 255, 0);
+    
  }
  
  
  .logo_image{
-    width:40px;
-    margin-left: 10px;
- 
+    width:40px; 
  }
  
  
@@ -34,10 +32,15 @@ header{
  
  
  .navigation ul{
-    display: inline;
+    display: flex;
     margin-top: 30px;
     margin-right: 30px;
     
+    }
+    .burger{
+      width: 40px;
+      height: 30px;
+      display: none;
     }
  
  
@@ -57,16 +60,18 @@ header{
  
  li{
     display: inline;
+    margin: 10px;
  }
  
  
- .logo_1{   
+ .logo_1{  
+    margin-top: 100px; 
     width: 500px;
     height: 350px;
     display:flex;
     justify-content: center;
     align-items: center;    
-    margin-top:50px;
+    
  } 
  
  
@@ -118,14 +123,10 @@ header{
     } 
  
  
-    p{
-       text-align: justify;
-       /* margin-top:20px; */
-    }
     
-    /* .box1{
+ .box1{      
        width: 200px;
-       height:100px;
+       height:150px;
        background-color: yellow;       
        border: 2px solid black ;     
        margin: 0 auto;
@@ -133,7 +134,7 @@ header{
     }
     .box2{
        width: 200px;
-       height:100px;
+       height:150px;
        background-color: rgb(255, 0, 179);       
        border: 2px solid black ;     
        margin: 0 auto;
@@ -141,11 +142,11 @@ header{
     }
     .box3-positioned{
        width: 200px;
-       height:100px;
+       height:150px;
        background-color: rgb(0, 255, 64);       
        border: 2px solid black ;     
        margin: 0 auto;      
-    } */
+    } */ */
     .positioned{
        position: absolute;
        background-color: aqua;
@@ -170,13 +171,16 @@ header{
     .container_box1{
        padding: 25px;
        width: 1750px;
-       height: 500px;
+       height: 650px;
        background-color:pink;
     }
     .fizika7{
-       width: 700px;
+       width: 600px;
+       height: 650px;
+      
     }
-    .container_box2{  
+    .container_box2{ 
+      margin-top: 120px; 
        display: flex;
        justify-content: space-between;
        background-color:pink;
@@ -188,10 +192,14 @@ header{
        background-color: blueviolet;
        border: 3px solid black;
     }
-    .box1{
+    .boxbox{
        display: inline;
        width: 200px;
        height: 200px;
        background-color: blueviolet;
        border: 3px solid black;
     }
+   .text1{
+      margin-top: 70px;
+      margin-left: 50px;
+   }
