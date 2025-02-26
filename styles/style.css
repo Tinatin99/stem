@@ -2,23 +2,71 @@ header{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: chartreuse;
+    background-color: rgb(192, 255, 241);
     position: fixed;
     width: 100%;
     top: 0;
-    left:0 ;
-    
+    left:0 ;    
  }
- 
- 
+
  .logo_image{
-    width:40px; 
- }
+   width:40px;
+   margin-left: 10px;
+
+}
+
+.Newtones_cradle{
+   width:650px;
+   height:200px;
+   margin-top: 80px;
+   font-size: 14px; 
+   display: 
  
+ }
+
+.img1{
+   width: 150px;
+   float: left;
+   margin: 8px;
+  }
+
+  .img{
+   width: 120px;
+   height: 80px;
+   float: left;
+   margin: 8px;
+  }
+  strong{
+   width: 30px;
+   color: blue;
+   width: 50px;
+   height: 10px;
+   font-weight: bold;
+  }
+
+
+  .a{
+   display: inline-block;
+  }
+ .test{
+   display: inline-flex;
+ }
+
+ /* .logo{  
+    margin-top: 2px;
+    width: px;
+    height: px;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    
+ } 
+  */
+
  
  section{
     display: inline;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     width: 300px;
     height: 400px;
  }
@@ -38,14 +86,14 @@ header{
     
     }
     .burger{
-      width: 40px;
-      height: 30px;
+      width: 80px;
+      height: 50px;
       display: none;
     }
  
  
  iframe{
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: 10px;
     margin-bottom: 45px;
  
@@ -63,58 +111,20 @@ header{
     margin: 10px;
  }
  
+
+
  
- .logo_1{  
-    margin-top: 100px; 
-    width: 500px;
-    height: 350px;
-    display:flex;
-    justify-content: center;
-    align-items: center;    
-    
- } 
+   
+  
+
  
- 
- 
- section{
-    width: 300px;
-    height:185px; 
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 10px;
-    color: black   
- }
- 
- 
-   strong{
-    width: 30px;
-    color: blue;
-    width: 50px;
-    height: 10px;
-    font-weight: bold;
-   }
- 
- 
-   .img1{
-    width: 120px;
-    float: left;
-    margin: 8px;
-   }
- 
- 
-    .igavi{
-       
-       display:inline;   
-    }
- 
- 
-   .p1{
+   /* .p1{
   
     width:1700px;
     height:200px;
     margin: 15px;
     font-size: 14px;
-   }
+   } */
     div{ 
     display: flex;
     justify-content: space-around;
@@ -127,7 +137,7 @@ header{
  .box1{      
        width: 200px;
        height:150px;
-       background-color: yellow;       
+       /* background-color: yellow;        */
        border: 2px solid black ;     
        margin: 0 auto;
        
@@ -135,7 +145,7 @@ header{
     .box2{
        width: 200px;
        height:150px;
-       background-color: rgb(255, 0, 179);       
+       /* background-color: rgb(255, 0, 179);        */
        border: 2px solid black ;     
        margin: 0 auto;
        
@@ -143,7 +153,7 @@ header{
     .box3-positioned{
        width: 200px;
        height:150px;
-       background-color: rgb(0, 255, 64);       
+       /* background-color: rgb(0, 255, 64);        */
        border: 2px solid black ;     
        margin: 0 auto;      
     } */ */
@@ -157,7 +167,7 @@ header{
     }
     .container-box{
        position: relative;
-       background-color: pink;
+       /* background-color: pink; */
      
     }
     .chat_icon{
