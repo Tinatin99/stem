@@ -3,10 +3,12 @@ header{
     justify-content:space-between;
     align-items: center;
     background-color: rgb(192, 255, 241);
+    font-size: 30px;
+    color: slategrey;
     position: fixed;
     width: 100%;
     top: 0;
-    left:0 ;    
+    left:0 ;   
  }
 
  .logo_image{
@@ -16,12 +18,8 @@ header{
 }
 
 .Newtones_cradle{
-   width:650px;
-   height:200px;
    margin-top: 80px;
-   font-size: 14px; 
-   display: 
- 
+   font-size: 14px;   
  }
 
 .img1{
@@ -33,10 +31,15 @@ header{
   .img{
    width: 120px;
    height: 80px;
-   float: left;
+   float: right;
    margin: 8px;
+   display: flex;
+   justify-content: space-around;
+   align-items: end;
+
   }
-  strong{
+
+  b,strong{
    width: 30px;
    color: blue;
    width: 50px;
@@ -44,33 +47,51 @@ header{
    font-weight: bold;
   }
 
+  a{
+   text-decoration: none;
+ }
+   
+   
+ .navigation ul{
+   display: flex;
+   margin-top: 30px;
+   margin-right: 30px;
+   
+   }
 
-  .a{
-   display: inline-block;
-  }
- .test{
+   .burger{
+     width: 80px;
+     height: 50px;
+     color: black;
+     font-size: 30px;
+     position: relative;
+     display: none;
+   }
+
+   li{
+      display: inline;
+      margin: 10px;
+   }
+   
+   .nav_li{
+      margin-right: 25px;
+   }
+
+ /* .test{
    display: inline-flex;
+ } */
+ /* body{
+  font-family: ;
+ } */
+
+ .Newtones_cradle{
+   font-size: 20px;
+   display: inline-block;
+   
  }
 
- /* .logo{  
-    margin-top: 2px;
-    width: px;
-    height: px;
-    display:flex;
-    justify-content: center;
-    align-items: center;    
-    
- } 
-  */
+ 
 
- 
- section{
-    display: inline;
-    /* background-color: antiquewhite; */
-    width: 300px;
-    height: 400px;
- }
- 
  
  .maps_if{
     margin-top: 5px;
@@ -78,19 +99,7 @@ header{
     margin-left: 5px;
  }
  
- 
- .navigation ul{
-    display: flex;
-    margin-top: 30px;
-    margin-right: 30px;
-    
-    }
-    .burger{
-      width: 80px;
-      height: 50px;
-      display: none;
-    }
- 
+
  
  iframe{
     margin-top: 80px;
@@ -105,71 +114,14 @@ header{
     margin-bottom: 15px;
  }
  
- 
- li{
-    display: inline;
-    margin: 10px;
- }
- 
+ /* main {
+   display: block;
+   unicode-bidi: isolate;
+}
+ */
 
 
- 
-   
-  
 
- 
-   /* .p1{
-  
-    width:1700px;
-    height:200px;
-    margin: 15px;
-    font-size: 14px;
-   } */
-    div{ 
-    display: flex;
-    justify-content: space-around;
-    gap:15px;
-    margin-top:15px;
-    } 
- 
- 
-    
- .box1{      
-       width: 200px;
-       height:150px;
-       /* background-color: yellow;        */
-       border: 2px solid black ;     
-       margin: 0 auto;
-       
-    }
-    .box2{
-       width: 200px;
-       height:150px;
-       /* background-color: rgb(255, 0, 179);        */
-       border: 2px solid black ;     
-       margin: 0 auto;
-       
-    }
-    .box3-positioned{
-       width: 200px;
-       height:150px;
-       /* background-color: rgb(0, 255, 64);        */
-       border: 2px solid black ;     
-       margin: 0 auto;      
-    } */ */
-    .positioned{
-       position: absolute;
-       background-color: aqua;
-       top: 45px;
-       left: 47px;
-      
- 
-    }
-    .container-box{
-       position: relative;
-       /* background-color: pink; */
-     
-    }
     .chat_icon{
        width: 90px;
        height: 60px;
@@ -178,38 +130,30 @@ header{
        right: 60px;
        z-index: -1; 
     }
-    .container_box1{
+    .wrapper{
+       /* display: flex;
+       justify-content: center;
+       align-items: center; */
        padding: 25px;
-       width: 1750px;
-       height: 650px;
-       background-color:pink;
+       
+       background-color:rgb(233, 255, 192);
+       display: inline-flex;
+     
     }
-    .fizika7{
-       width: 600px;
-       height: 650px;
-      
+    .fa-brands{
+      display: inline-block;
+      font-size: 25px;
+
     }
-    .container_box2{ 
-      margin-top: 120px; 
-       display: flex;
-       justify-content: space-between;
-       background-color:pink;
-    }
-    .box{
-       display: inline;
-       width: 200px;
-       height: 200px;
-       background-color: blueviolet;
-       border: 3px solid black;
-    }
-    .boxbox{
-       display: inline;
-       width: 200px;
-       height: 200px;
-       background-color: blueviolet;
-       border: 3px solid black;
-    }
-   .text1{
-      margin-top: 70px;
+    /* body {
+      line-height: 1;
+  }
+     */
+   .par{
+      display: inline-flex;
+      font-size: 20px;
+      margin-top: 80px;
       margin-left: 50px;
-   }
+      border-bottom: 40px;
+      padding-bottom: 20px;
+     }
