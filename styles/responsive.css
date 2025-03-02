@@ -1,64 +1,119 @@
-/* @media(max-width:600px){
-    .container_box1{
-        background-color: blue;
+/* @media(max-width:790px){
+    main.wrapper{
+        background-color: beige;
     }
-    .container_box2{
+    main.wrapper{
+        flex-direction: column;
+        align-items: center;
+
+}
+}
+@media(max-width:400px){
+    main.wrapper{
+        background-color: palegreen;
+    }
+   
+}
+
+
+
+@media(max-width:790px){
+    .par{
+        background-color: palevioletred;
+    }
+    .par{
         flex-direction: column;
         align-items: center;
     }
 }
 
 @media(max-width:400px){
-    .container_box1{
-        background-color: green;
+    .par{
+        background-color: gainsboro;
     }
    
-} */
+}
 
-/* @media(max-width:626px){
-    .container_box1{
-        background-color: blue;
+
+
+@media(max-width:790px){
+    .par1{
+        background-color: rgb(213, 216, 112);
     }
-    .container_box2{
-        flex-wrap: wrap;
-        justify-content: center;
+    .par1{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
 @media(max-width:400px){
-    .container_box1{
-        background-color: green;
+    .par1{
+        background-color: rgb(220, 220, 220);
     }
    
- }  */
- /* @media(max-width:600px){
- 
-    .container_box2{
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }  
-    .boxbox:nth-child(1){
-        background-color: red;
-        width: 90%;
-    }
-    .box{
-        background-color: yellow;
-        width: 30%;
-        justify-content:space-between
-    }
-    .burger{
-        display: blok;
-    }
-    .navigation{
-        display: none;
-    }
- 
-    } 
-   */
+}
 
 
-  @media(max-width:320px){
+
+
+@media(max-width:790px){
+    .box1{
+        background-color: beige;
+    }
+    .box1{
+        flex-direction: column;
+        align-items: center;
+
+}
+}
+@media(max-width:400px){
+    .box1{
+        background-color: palegreen;
+    }
+   
+}
+@media(max-width:600px){
+    .box2{
+        background-color: palevioletred;
+    }
+    .box2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:400px){
+    .box2{
+        background-color: gainsboro;
+    }
+   
+}
+
+
+@media(max-width:790px){
+    .box3{
+        background-color: rgb(213, 216, 112);
+    }
+    .box3{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:400px){
+    .box3{
+        background-color: rgb(220, 220, 220);
+    }
+   
+} */
+
+
+
+
+
+
+
+  /* @media(max-width:320px){
     
     .burger{
         display: block;
@@ -67,28 +122,93 @@
         display: none;
     }
     
-} 
+}  */
 
-
-
-/* 
- @media(max-width:626px){
-    .container_box2{
+/* @media(max-width:650px){
+    .wrapper{
         background-color: blue;
-    }
-    .container_box2{
-        flex-wrap: wrap;
+          flex-wrap: wrap;
         justify-content: center;
     }  
     .box1{
-        width: 80%;
+        width: 60%;
     }
-    .box{
+    .box2{
         width: 30%;
         justify-content:space-between
     }
+    .box3{
+        width: 10%;
+        justify-content: space-between;
+
+    }
+ 
+    }
+
+
+ @media(max-width:350px){
+    .wrapper{
+        background-color: blue;
+          flex-wrap: wrap;
+        justify-content: center;
+    }  
+    .box1{
+        width: 40%;
+    }
+    .box2{
+        width: 40%;
+        justify-content:space-between
+    }
+    .box3{
+        width: 20%;
+        justify-content: space-between;
+
+    }
  
     } */
+    @media(max-width:650px){
+        .wrapper{
+            background-color: blue;
+              flex-wrap: wrap;
+            justify-content: center;
+        }  
+        .box1{
+            width: 60%;
+        }
+        .box2{
+            width: 30%;
+            justify-content:space-between
+        }
+        .box3{
+            width: 10%;
+            justify-content: space-between;
+    
+        }
+     
+        }
+    
+    
+     @media(max-width:350px){
+        .wrapper{
+            background-color: blue;
+              flex-wrap: wrap;
+            justify-content: center;
+        }  
+        .box1{
+            width: 40%;
+        }
+        .box2{
+            width: 40%;
+            justify-content:space-between
+        }
+        .box3{
+            width: 20%;
+            justify-content: space-between;
+    
+        }
+     
+        }
+    
 
 
 
